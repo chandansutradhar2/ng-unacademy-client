@@ -1,0 +1,11 @@
+<div class="course">
+    <img *ngIf="course && course.imageUrl" [src]="course.imageUrl || ''" />
+    <h4>{{course.name}}</h4>
+    <div>
+        {{course.description}}
+    </div>
+    <div>
+        {{course.createdBy}}
+    </div>
+    <div>3.5 total hours | 20 lectures | {{course.level}}</div>
+</div>

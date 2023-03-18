@@ -1,0 +1,29 @@
+h1{
+    font-size: 40pt;
+    text-align: center;
+    align-items: center;
+    color: rgb(110, 82, 88);
+}
+
+.home{
+scroll-behavior: smooth;
+}
+
+
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10pt;
+    padding-top: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+#course{
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
